@@ -1,0 +1,94 @@
+Sarah Semeen's Port listener running at 2540.
+
+GET / HTTP/1.1
+Host: localhost:2540
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+GET /cat.html HTTP/1.1
+Host: localhost:2540
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+GET /dog.txt HTTP/1.1
+Host: localhost:2540
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+GET /favicon.ico HTTP/1.1
+Host: localhost:2540
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+GET // HTTP/1.1
+Host: localhost:2540
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko/20100101 Firefox/56.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+Sarah Semeen's MyTelnet Client, 1.0.
+
+Using server: condor.depaul.edu, Port: 80
+Enter text to send to the server, <stop> to end: GET /dog.txt HTTP/1.1
+Enter text to send to the server, <stop> to end: Host: condor.depaul.edu:80
+Enter text to send to the server, <stop> to end:
+Enter text to send to the server, <stop> to end:
+Enter text to send to the server, <stop> to end: stop
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 09 Feb 2020 03:22:43 GMT
+Server: Apache
+Location: https://condor.depaul.edu:80/dog.txt
+Content-Length: 244
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://condor.depaul.edu:80/dog.txt">here</a>.</p>
+</body></html>
+
+
+Sarah Semeen's MyTelnet Client, 1.0.
+
+Using server: condor.depaul.edu, Port: 80
+Enter text to send to the server, <stop> to end: GET /cat.html HTTP/1.1
+Enter text to send to the server, <stop> to end: Host: condor.depaul.edu:80
+Enter text to send to the server, <stop> to end:
+Enter text to send to the server, <stop> to end:
+Enter text to send to the server, <stop> to end: stop
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 09 Feb 2020 03:23:56 GMT
+Server: Apache
+Location: https://condor.depaul.edu:80/cat.html
+Content-Length: 245
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://condor.depaul.edu:80/cat.html">here</a>.</p>
+</body></html>
+
+
